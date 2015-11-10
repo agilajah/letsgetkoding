@@ -62,8 +62,9 @@ void TRAVEL(int idKota){
 
 void END_TURN(){
 	/* KAMUS */
-
+	int giliranSebelumnya;
 
 	/* ALGORITMA */
 	giliranSekarang = (++giliranSekarang % maxPemain);
+	printf("Player %c mengakhiri giliran. Giliran player %c!\n", pemain[giliranSebelumnya].id, pemain[giliranSekarang].id);
 }

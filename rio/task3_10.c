@@ -48,12 +48,16 @@ void HOST(){
 	printf("%s menjadi host World Cup. Uang sewa di %s menjadi %s\n", petak[nomorPetakSekarang].namaKota, petak[nomorPetakSekarang].namaKota, tulisUang(2 * petak[nomorPetakSekarang].hargaSekarang));
 }
 
-void TRAVEL(){
+
+
+void TRAVEL(int idKota){
 	/* KAMUS */
 
-	
-	/* ALGORITMA */
 
+	/* ALGORITMA */
+	nomorPetakSekarang = idKota;
+
+	printf("Player %c sampai di %s\n", pemain[giliranSekarang].id, petak[nomorPetakSekarang].namaKota);
 }
 
 void END_TURN(){
@@ -61,5 +65,5 @@ void END_TURN(){
 
 
 	/* ALGORITMA */
-
+	giliranSekarang = (++giliranSekarang % maxPemain);
 }

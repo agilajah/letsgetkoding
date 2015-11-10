@@ -41,8 +41,10 @@ void LEADERBOARD(){
 }
 
 void HOST(){
-	/* ALGORITMA */
+	/*KAMUS */
 	publicHost = pemain[giliranSekarang].id;
+
+	/* ALGORITMA */
 	printf("%s menjadi host World Cup. Uang sewa di %s menjadi %s\n", petak[nomorPetakSekarang].namaKota, petak[nomorPetakSekarang].namaKota, tulisUang(2 * petak[nomorPetakSekarang].hargaSekarang));
 }
 

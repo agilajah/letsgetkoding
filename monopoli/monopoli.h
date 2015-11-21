@@ -113,11 +113,11 @@ void KATA_PEMBUKA();
 */
 dadu ROLL_DICE();
 //void jalan(int PUBLIC_giliranPemain, int *PUBLIC_pemain[PUBLIC_giliranPemain]); //susah dibaca
-void jalan(int PUBLIC_giliranPemain, int *posisipemainsekarang) //lebih enak dibaca
+void jalan(int PUBLIC_giliranPemain, infoPemain *posisipemainsekarang); //lebih enak dibaca
 int ROLLER(int min_num, int max_num);
 void SHOW_OFFERED(List *PUBLIC_petak);
 void BUY_OFFERED(List *PUBLIC_petak, boolean *berhasil);
-void CEK_KONDISI_PETAK(int id, *pemainsekarang);
+void CEK_KONDISI_PETAK(int id, infoPemain *pemainsekarang);
 
 /*
 	Hasna

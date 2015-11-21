@@ -176,7 +176,7 @@ void BUY_OFFERED(List *PUBLIC_petak, boolean *berhasil) {
 	   }
 }
 
-void jalan(int PUBLIC_giliranPemain, int *pemainsekarang) {
+void jalan(int PUBLIC_giliranPemain, infoPemain *pemainsekarang) {
 /*Deskripsi*/
 	/* *pemainsekarang sebenarnya adalah PUBLIC_Pemain[PUBLIC_GiliranPemain]
 	/* Sebuah prosedur untuk mengatur jalannya pemain */

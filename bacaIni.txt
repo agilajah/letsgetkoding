@@ -1,0 +1,26 @@
+Berkas-berkas penting pada repository
+
++ letsgetkoding-master 
+    + mesinkarakter
+        + mesinkarakter.h
+        + mesinkarakter.c    
+    + mesinkata
+        + mesinkata.h
+        + mesinkata.c
+    + monopoli
+        + monopoli.h
+        + monopoli.c
+    + boolean.h
+    + main.c
+
+cara compile :
+
+    pastikan terminal berada pada folder letsgetkoding-master, lalu gunakan gcc    
+
+        letsgetkoding-master$ gcc -o main mesinkarakter/mesinkarakter.h mesinkarakter/mesinkarakter.c mesinkata/mesinkata.h mesinkata/mesinkata.c monopoli/monopoli.h monopoli/monopoli.c main.c     
+
+    jalankan executable main
+
+        letsgetkoding-master$ ./main
+
+
